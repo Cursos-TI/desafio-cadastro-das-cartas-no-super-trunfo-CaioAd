@@ -48,8 +48,8 @@ int main() {
     denpop2 = (float)populacao2 / area2;
 
     // Cálculo do PIB per capita.
-    pibcap1 = pib1 / (float)populacao1;
-    pibcap2 = pib2 / (float)populacao2;
+    pibcap1 = pib1 * 1000000000.0f / (float)populacao1;
+    pibcap2 = pib2 * 1000000000.0f / (float)populacao2;
 
     // Cálculo do Super Poder.
     super1 = (float)populacao1 + area1 + pib1 + pontos1 + pibcap1 + (1.0f / denpop1);

@@ -62,8 +62,8 @@ int main() {
 	denpop2 = populacao2 / area2;
 
 	// Cálculo do PIB.
-	pibcap1 = pib1 / populacao1;
-	pibcap2 = pib2 / populacao2;
+	pibcap1 = pib1 * 1000000000.0f / populacao1;
+	pibcap2 = pib2 * 1000000000.0f / populacao2;
 	
 
 
